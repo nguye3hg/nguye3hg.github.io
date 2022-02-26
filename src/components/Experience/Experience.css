@@ -1,0 +1,312 @@
+#Experience{
+    width:100%;
+    overflow: hidden;
+    height:800px;
+    background-color: #bea9de;
+    position: relative;
+    background-image: url('./star1.png');
+}
+#expTransition{
+    position: absolute;
+    width:100%;
+    height:100px;
+    background: linear-gradient(to top, blanchedalmond,transparent);
+    z-index:1000;
+    margin-top: -100px;
+}
+#ExpContainer{
+    height:700px;
+    width:100%;
+    position:absolute;
+    overflow: hidden;
+    object-fit: cover;
+}
+#floor{
+    height: 300px;
+    width:100%;
+    border-top: solid black ;
+    border-top-width:10px;
+    margin-top: 700px;
+}
+#pillarContainer{
+    display: flex;
+    position: absolute;
+    margin-top: -300px;
+    z-index: 1000000;
+}
+#pillar1,#pillar2,#pillar3,#pillar4,#pillar5,#pillar6,#pillar7,#pillar8{
+    height:100px;
+    width:10px;
+    background-color: black;
+}
+#pillar1{
+    margin-left: 200px;
+}
+#pillar2,#pillar3,#pillar4,#pillar5,#pillar6,#pillar7,#pillar8{
+    margin-left: 194px;
+}
+#standingLamp{
+    height:400px;
+    width:10px;
+    background-color: black;
+    margin-top: 300px;
+    margin-left: 50vw;
+}
+#curvedLamp1{
+    position:absolute;
+    height:200px;
+    width:100px;
+    border-radius: 100px;
+    border: solid black;
+    border-width: 10px;
+    margin-left: 50vw;
+    margin-top: 200px;
+    z-index: 1;
+}
+#hider1{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    background-color: #bea9de;
+    z-index: 2;
+    margin-top: 90px;
+}
+#lampCone1{
+    height:70px;
+    width: 50px;
+    transform: perspective(10px) rotateX(3deg);
+    background-color: black;
+    margin: 0px;
+    margin-top: 85px;
+    margin-left: 60px;
+    position: absolute;
+    z-index: 4;
+}
+#lampBulb1{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-left: 70px;
+    margin-top:145px;
+    position:absolute;
+    z-index: 3;
+}
+#curvedLamp2{
+    position:absolute;
+    height:200px;
+    width:100px;
+    border-radius: 100px;
+    border: solid black;
+    border-width: 10px;
+    margin-left: -100px;
+    margin-top: -80px;
+    z-index: 10;
+}
+#hider2{
+    position: absolute;
+    height: 100px;
+    width:100px;
+    background-color: #bea9de;
+    z-index: 12;
+    margin-top: 90px;
+    margin-left: -20px;
+}
+#lampCone2{
+    height:70px;
+    width: 50px;
+    transform: perspective(10px) rotateX(3deg);
+    background-color: black;
+    margin: 0px;
+    margin-top: 85px;
+    margin-left: -30px;
+    position: absolute;
+    z-index: 14;
+}
+#lampBulb2{
+    height: 30px;
+    width: 30px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-left: -20px;
+    margin-top:145px;
+    position:absolute;
+    z-index: 13;
+}
+#lampLight1{
+    opacity: 0.3;
+    height:600px;
+    width: 200px;
+    transform: perspective(1vh) rotateX(5deg);
+    background-color: transparent;
+    margin: 0px;
+    margin-top: -55px;
+    margin-left: -15px;
+    position: absolute;
+    z-index:5;
+}
+#lampLight2{
+    opacity: 0.3;
+    height:600px;
+    width: 200px;
+    transform: perspective(1vh) rotateX(5deg);
+    background-color: transparent;
+    margin: 0px;
+    margin-top: -55px;
+    margin-left: -105px;
+    position: absolute;
+    z-index:15;
+}
+#person{
+    position: absolute;
+    width:100px;
+    height:200px;
+    background-color: transparent;
+    margin-top: -200px;
+    margin-left: 50vw;
+}
+#headPerson{
+    position: absolute;
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+#bodyPerson{
+    position: absolute;
+    width:55px;
+    height:100px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 30px;
+    transform: rotateZ(170deg);
+}
+#legPerson1{
+    position: absolute;
+    width:10px;
+    height:100px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 50px;
+}   
+#legPerson2{
+    position: absolute;
+    width:10px;
+    height:100px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 70px;
+    transform: rotateZ(160deg);
+}
+#handPerson1{
+    position: absolute;
+    width:10px;
+    height:100px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 70px;
+    transform: rotateZ(80deg);
+}
+#handPerson2{
+    position: absolute;
+    width:10px;
+    height:100px;
+    border-radius: 5px;
+    background-color: black;
+    margin-top: 19px;
+    margin-left: 35px;
+    transform: rotateZ(120deg);
+}
+#slider{
+    width:600px;
+    height: 700px;
+    margin-top: -700px;
+    position: absolute;
+    background-color: black;
+    position: absolute;
+    z-index: 5;
+    color: #bea9de;
+
+}
+#slider h2{
+    display: flex;
+    justify-content: center;
+    
+}
+#slider h3{
+    display: flex;
+    justify-content: center;
+    
+}
+#TA,#Coop1{
+    border:solid #bea9de;
+    border-width: 5px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoContainer1,#logoContainer2{
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+    border:solid #bea9de;
+    border-width: 5px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoContainer1 img,#logoContainer2 img{
+    transform: scale(0.13);
+}
+#TA:hover,#Coop1:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+#slider:hover{
+    width:100%;
+    animation: extend 0.5s;
+}
+@keyframes extend {
+
+    0%   {width: 600px;}
+    10%   {width: 650px;}
+    20%   {width: 700px;}
+    30%   {width: 750px;}
+    40%   {width: 800px;}
+    50%   {width: 850px;}
+    60%   {width: 900px;}
+    70%   {width: 950px;}
+    80%   {width: 1000px;}
+    90%   {width: 1100px;}
+    100%   {width: 100vw;}
+  
+}
+#cat{
+    position: absolute;
+    z-index: 2;
+    width: 500px;
+    height:500px;
+    margin-top: -500px;
+    margin-left: 60vw;
+}
+#cat #Cat1{
+    transform: scale(0.3);
+    margin-top: 335px;
+    margin-left: -120px;
+}
+#cat #moonandcat{
+    transform: scale(0.2);
+    margin-top: -500px;
+    margin-left: -150px;
+    position: absolute;
+}
