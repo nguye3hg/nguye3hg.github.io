@@ -96,8 +96,7 @@ function Work(){
               <a href='https://api.practera.com/portfolio/1628/nguye3hg%40mail.uc.edu'>
                 <div id='workCard2'>
                   <h2>WACE Global Student Collaborative Project</h2>
-                  <h3>Sportandi</h3>
-                  <br id='br2'></br>
+                  <h3>Sportandi</h3> 
                   <div id='pjImgfixer2'>
                         <div id='pjImgContainer2'>
                           <img src={pj2} alt=''></img>

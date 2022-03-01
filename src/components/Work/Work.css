@@ -49,11 +49,14 @@
     color: black;
     display: flex;
     justify-content: center;
+    font-size: 1.5vw;
+    margin-left: 1vw;
 }
 #Work h3{
     color: black;
     display: flex;
     justify-content: center;
+    font-size: 1vw;
 }
 #pjImgContainer1,
 #pjImgContainer2,
@@ -125,7 +128,7 @@
     transform: perspective(1vh) rotateX(3deg);
     background-color: transparent;
     margin: 0px;
-    margin-top: -208px;
+    margin-top: -225px;
     margin-left: -46px;
 }
 #rope2{

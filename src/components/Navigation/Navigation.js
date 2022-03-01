@@ -7,6 +7,7 @@ function Navigation() {
       <div id="Navigation">
           <a href="#" className="logo">Hoang Nguyen</a>
             <ul>
+            
                 <li><a onClick={()=>scrollView('Introduction')} className="active">Home</a></li>
                 <li><a onClick={()=>scrollView('About')} >About</a></li>
                 <li><a onClick={()=>scrollView('Experience')} >Experience</a></li>

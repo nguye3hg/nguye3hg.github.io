@@ -5,7 +5,6 @@ import human1 from './human1.png';
 import human2 from './human2.png';
 import tree from './tree.png';
 import myComputer from './myComputer.png';
-import schedule from './schedule.png';
 function About() {
   useEffect(()=>{
     function handleScroll(e){
@@ -55,16 +54,14 @@ function About() {
           <div id='ABMContainer'>
               
               <div id="card" style={{transform:'rotateX(90deg)'}}>       
-                <img src={schedule} alt=''>
-                </img>      
+                <div id='paragraph'>
+                  <h2 >About Me</h2><br></br>
+                  <h3> Second-year Computer Science student at UC</h3><br></br>
+                  <h3> Passionate about website, mobile </h3><br></br>
+                  <h3>and blockchain application.</h3>
+                </div>
               </div>
-              <div id='paragraph'>
-                <h2 >About Me</h2><br></br>
-                <h3> Second-year Computer Science student at UC</h3><br></br>
-                <h3> Passionate about website, mobile and blockchain application</h3><br></br>
-                <h3> </h3><br></br>
 
-              </div>
           </div>   
           <div id='pictureContainer'>
             <div id='picture'>

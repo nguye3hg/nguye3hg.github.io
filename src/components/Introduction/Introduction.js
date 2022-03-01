@@ -1,6 +1,5 @@
 import  "./Introduction.css";
 import introimg from "./introimg.jpg";
-import moon from "./moon.png";
 import moutain_behind from "./mountains_behind.png";
 import moutain_front from "./mountains_front.png";
 import stars from "./stars.png";
@@ -42,7 +41,6 @@ function Introduction() {
     return (
       <div>
           <div id="Introduction" >
-            <img src={moon} id='moon' alt='' />
             <video  loop autoPlay muted id='mountains_behind'>
               <source src={ghosblade} type="video/mp4"/>
             </video>

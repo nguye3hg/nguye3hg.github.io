@@ -140,7 +140,7 @@
     transform: perspective(1vh) rotateX(5deg);
     background-color: transparent;
     margin: 0px;
-    margin-top: -55px;
+    margin-top: -70px;
     margin-left: -15px;
     position: absolute;
     z-index:5;
@@ -152,7 +152,7 @@
     transform: perspective(1vh) rotateX(5deg);
     background-color: transparent;
     margin: 0px;
-    margin-top: -55px;
+    margin-top: -70px;
     margin-left: -105px;
     position: absolute;
     z-index:15;

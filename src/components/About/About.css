@@ -32,18 +32,14 @@
 #card{
     display: flex;
     background: blanchedalmond;
-    width: 35vw;
-    height: 50vh;
+    width: 500px;
+    height: 500px;
     margin-left: 15vw;
     transform-origin: center top;
     overflow: hidden;
-    justify-content: center;
-    align-items: center;
+    
 }
-#card{
-  width: 35vw;
-  height: 50vh;
-}
+
 #About::after{
     content:'';
     position: absolute;
@@ -125,6 +121,12 @@
   display: block;
   text-justify: center;
   color: black;
-  margin-left: 5px;
   font-weight: 200;
+  margin-left: 50px;
+}
+#card #paragraph h2,#card #paragraph h3{
+  display: flex;
+  justify-content: center;
+  width: 100%;;
+
 }

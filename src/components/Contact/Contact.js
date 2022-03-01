@@ -38,7 +38,7 @@ function Contact(){
                 </p>
             </div>
             <div id='buttonWrapper' >
-                    <div id='turnonButton' ><h3>Click</h3></div>
+                    <div id='turnonButton' ><div id='Click'>Click</div></div>
             </div>
             
             <div id='imgWrapper'>

@@ -40,3 +40,8 @@
     color:#2b1055;
 
 }
+@media only screen and (max-width: 800px) {
+    #Navigation{
+        display: none;
+    }
+}
