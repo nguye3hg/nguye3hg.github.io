@@ -44,7 +44,7 @@ function Introduction() {
             <video  loop autoPlay muted id='mountains_behind'>
               <source src={ghosblade} type="video/mp4"/>
             </video>
-            <h2 id="text">PORTFOLIO</h2>
+            <h2 id="text">WELCOME</h2>
             <a id="btn" onClick={scrollView1}>Explore</a>
             <img src={stars} id='stars' alt =''/>
 
